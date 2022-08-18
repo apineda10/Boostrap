@@ -1,0 +1,74 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*------HEADER-------*/
+.navbar-brand{
+    font-weight: 600;
+}
+.navbar__Titulo a{
+    color:#ca3e47;
+}
+.carousel{
+    background-color: #313131;    
+}
+.carousel-item {
+    background-color: #313131;
+}
+.carousel-caption{
+    background-color: #ca3e4752;
+}
+.carousel-caption h5{
+    padding:3px;
+    font-size:20px; 
+}
+.text-secondary{
+    font-weight: 600;
+}
+
+.carousel-img{
+    height: 90vh;
+    object-fit: cover;
+}
+
+
+/*-------MAIN---------*/
+/*------CALENDAR---------*/
+
+main{
+    background-color: #313131; 
+}
+.Texto_titulo__mes{
+    background-color: #ca3e4752;
+    color:whitesmoke
+}
+
+.Texto_titulo{
+    font-weight: 600;
+    color:#ca3e47;
+}
+.Texto_Subtitulo{
+    color:whitesmoke
+}
+
+/*----mas vistas----*/
+
+.card{
+    width: 30rem;
+    height: 20rem;
+}
+.card-img{
+    height: 14rem;
+    object-fit: cover;
+}
+
+.article__card{
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+/*---------NOVEDADES*--------*/
+
+.noticias P{
+    color:whitesmoke;
+}
