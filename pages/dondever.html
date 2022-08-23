@@ -46,45 +46,35 @@
             </div>
         </nav>
     </header>
-    <!--MAIN-->
-    <main>
-        <div>
-            <hr>
-            <section>
-                <form>
-                    <fieldset>
-                        <legend>Formulario de contacto</legend>
-                        <div>
-                        
-                            <div>
-                                <label for="usu-nombre">Nombre:</label>
-                                <input type="text" id="usu-nombre" name="usu-nombre">
-                            </div>
-                            <div>
-                                <label for="usu-apellido">Apellido:</label>
-                                <input type="text" id="usu-apellido" name="usu-apellido">
-                            </div>                          
-                            <div>
-                                <label for="usu-email">Email:</label>
-                                <input type="email" id="usu-email" name="usu-email">
-                            </div>
-                            <hr>
-                            <div>
-                                <label for="usu-consulta">Motivo de contacto:</label>
-                                <textarea cols="30" rows="10" id="usu-consulta" name="usu-consulta"></textarea>
-                            </div>
-                            <div>
-                                <label for="usu-news">Desea recibir las ultimas novedades?</label>
-                                <input type="checkbox" id="usu-news" name="usu-news">
-                            </div>
-                        
-                        </div>
-                        <input type="submit" value="Enviar"></input>
-                    </fieldset>
-                </form>
-            </section>
-        </div>
-    </main>
+   <!--MAIN-->
+    <div>
+        <h2>Encuentra tu suerie</h2>
+    </div>
+    <div>
+        <h3>Inicia la busqueda para podamos decirte en que plataforma encontrar tu serie</h3>
+    </div>
+    <div .class="contendor-formsearch">
+        <form>
+            <legend>Formulario de busqueda</legend>
+            <fieldset>
+                <div>
+                    <label for="buscar">Buscar</label>
+                    <input type="search" id="buscar" name="buscar">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <hr> 
+    <div>
+        <footer class="footer">
+            <ul>
+                <li><a href="https://es-la.facebook.com/" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/" target="_blank">Twiter</a></li>
+                <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                <li><a href="./pages/contacto.html">Contacto</a></li>
+            </ul>
+        </footer>
+    </div>
     <!--FOOTER-->
     <footer>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
@@ -92,31 +82,31 @@
                 <div class="collapse navbar-collapse d-flex justify-content-center " id="navbarNav">
                     <ul class="navbar-nav ">
                         <li class="nav-item">
-                          <a class="nav-link" href="https://twitter.com/?lang=es">Twitter</a>
+                        <a class="nav-link" href="https://twitter.com/?lang=es">Twitter</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="https://es-la.facebook.com/">Facebook</a>
+                        <a class="nav-link" href="https://es-la.facebook.com/">Facebook</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="https://www.instagram.com/">Instagram</a>
+                        <a class="nav-link" href="https://www.instagram.com/">Instagram</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="./contacto.html">Contacto</a>
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
                         </li>
-                      </ul>
+                    </ul>
                 </div>
             </div>
-        </nav>
-     
+        </nav>   
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
-    </script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+  <!--SCRIPTS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

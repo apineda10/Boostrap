@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <!--BOOSTRAP-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <!--ANIMACIONES-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--CSS-->
     <link rel="stylesheet" href="./css/style.css">
     <title>Fandom Series - Home</title>
@@ -34,10 +36,10 @@
               <a class="nav-link" href="./pages/novedades.html">Novedades</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Donde ver</a>
+              <a class="nav-link" href="./pages/dondever.html">Donde ver</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Próximos estrenos</a>
+              <a class="nav-link" href="./pages/ultlanzamientos.html">Últimos estrenos</a>
             </li>
           </ul>
         </div>
@@ -96,7 +98,7 @@
       </div>
     </section>
     <!--Mas vistas-->
-    <section>
+    <section data-aos="fade-up">
       <div class="row__caption text-center">
         <h2 class="Texto_titulo">Lo mas visto de la semana</h2>
         <h3 class="Texto_Subtitulo">Top 5 semanal</h3>
@@ -111,7 +113,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-4 col-md-4 col-sm-12 d-flex flex-column jusfity-content-arround align-items-center p-2">
+        <div class="col-xl-4 col-md-4 col-sm-12 d-flex flex-column jusfity-content-arround align-items-center p-2"  >
           <div class="card" style="width: 20rem;">
             <img src="./img/mv_vikings.png" class="card-img-top card-img" alt="imagen de vikings">
             <div class="card-body text-center">
@@ -122,7 +124,7 @@
           </div>
         </div>
         <div class="col-xl-4 col-md-4 col-sm-12 d-flex flex-column jusfity-content-arround align-items-center p-2">
-          <div class="card" style="width: 20rem">
+          <div class="card" style="width: 20rem" >
             <img src="./img/mv_thisisus.png" class="card-img-top card-img" alt="imagen de this is us">
             <div class="card-body text-center">
               <h5 class="card-title">This Is Us</h5>
@@ -130,7 +132,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-4 col-md-4 col-sm-12 d-flex flex-column jusfity-content-arround align-items-center p-2">
+        <div class="col-xl-4 col-md-4 col-sm-12 d-flex flex-column jusfity-content-arround align-items-center p-2"  >
           <div class="card" style="width:20rem;">
             <img src="./img/mv_stranger.png" class="card-img-top card-img" alt="imagen de stranger thigs">
             <div class="card-body text-center">
@@ -152,8 +154,8 @@
     </section>  
 
     <!--Prox estrenos-->
-    <section>
-      <article class="row d-flex flex-column jusfity-content-arround align-items-center p-2">
+    <section data-aos="fade-up" >
+      <article class="row d-flex flex-column jusfity-content-arround align-items-center p-2" >
         <div class="col-xl-6 col-md-8 col-sm-12 row__caption d-flex flex-column jusfity-content-arround align-items-center">
           <h2 class="Texto_titulo">Próximos estrenos</h2>
           <h3 class="Texto_Subtitulo">Estrenos del mes</h3>
@@ -254,16 +256,16 @@
           <div class="collapse navbar-collapse d-flex justify-content-center " id="navbarNav">
             <ul class="navbar-nav ">
               <li class="nav-item">
-                <a class="nav-link" href="#">Twitter</a>
+                <a class="nav-link" href="https://twitter.com/?lang=es">Twitter</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Facebook</a>
+                <a class="nav-link" href="https://es-la.facebook.com/">Facebook</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Instagram</a>
+                <a class="nav-link" href="https://www.instagram.com/">Instagram</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
               </li>
             </ul>
           </div>
@@ -271,10 +273,15 @@
       </nav>
     
 </footer>
+  <!--SCRIPTS-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
   <script>
     const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
     const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
   </script>
 </body>
 </html>
