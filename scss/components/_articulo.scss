@@ -1,0 +1,18 @@
+.Texto_titulo{
+    font-weight: 600;
+    color:$colorTitulo;
+    &__mes{
+        background-color: $backgroundCarruselTexto;
+        color:$colorSubtitulo
+    }
+}
+
+.Texto_Subtitulo{
+    color:$colorSubtitulo
+}
+
+.noticias{
+    & P{
+    color:$colorTextoBloque;
+    }
+}

@@ -1,0 +1,25 @@
+.carousel{
+    background-color:$backgroundCarrusel;
+    &-item {
+        background-color:$backgroundCarrusel;
+    } 
+    &-caption{
+        background-color: $backgroundCarruselTexto;
+    }  
+    &-caption{
+        & h5{
+        padding:3px;
+        font-size:20px; 
+        }
+    } 
+    &-img{
+        height: 90vh;
+        object-fit: cover;
+    }
+}
+
+
+.text-secondary{
+    font-weight: 600;
+}
+

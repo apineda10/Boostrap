@@ -1,113 +1,109 @@
-*{
-    font-family: 'Quicksand', sans-serif;
+* {
+  font-family: "Quicksand", sans-serif;
 }
 
-
+body {
+  scrollbar-width: auto;
+  scrollbar-color: #c32c2c #313131;
+  overflow-x: hidden;
+}
 body::-webkit-scrollbar {
-    width: 12px;            
-  }
-
-  /* ===== Scrollbar CSS ===== */
-  body{
-    scrollbar-width: auto;
-    scrollbar-color: #c32c2c #313131;
-    overflow-x: hidden;
-  }
-  body::-webkit-scrollbar {
-    width: 14px;
-  }
-  body::-webkit-scrollbar-track {
-    background: #313131;
-  }
-  body::-webkit-scrollbar-thumb {
-    background-color: #c32c2c;
-    border-radius: 10px;
-    border: 3px solid #313131;
-  }
-
-
-/*------HEADER-------*/
-.navbar-brand{
-    font-weight: 600;
+  width: 10px;
 }
-.navbar__Titulo a{
-    color:#ca3e47;
+body::-webkit-scrollbar-track {
+  background: #313131;
 }
-.carousel{
-    background-color: #313131;    
+body::-webkit-scrollbar-thumb {
+  background-color: #c32c2c;
+  border-radius: 10px;
+  border: 3px solid rgba(49, 49, 49, 0);
+}
+
+main {
+  background: linear-gradient(180deg, rgb(15, 14, 14) 52%, rgb(82, 73, 73) 97%, rgb(94, 89, 89) 100%);
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
+
+.navbar__Titulo a {
+  color: #ca3e47;
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
+
+.navbar__Titulo a {
+  color: #ca3e47;
+}
+
+.carousel {
+  background-color: #313131;
 }
 .carousel-item {
-    background-color: #313131;
+  background-color: #313131;
 }
-.carousel-caption{
-    background-color: #ca3e4752;
+.carousel-caption {
+  background-color: rgba(202, 62, 71, 0.3215686275);
 }
-.carousel-caption h5{
-    padding:3px;
-    font-size:20px; 
+.carousel-caption h5 {
+  padding: 3px;
+  font-size: 20px;
 }
-.text-secondary{
-    font-weight: 600;
-}
-
-.carousel-img{
-    height: 90vh;
-    object-fit: cover;
+.carousel-img {
+  height: 90vh;
+  object-fit: cover;
 }
 
-
-/*-------MAIN---------*/
-/*------CALENDAR---------*/
-
-main{
-    background: rgb(15,14,14);
-    background: linear-gradient(180deg, rgba(15,14,14,1) 52%, rgba(82,73,73,1) 97%, rgba(94,89,89,1) 100%);
-}
-.Texto_titulo__mes{
-    background-color: #ca3e4752;
-    color:whitesmoke
+.text-secondary {
+  font-weight: 600;
 }
 
-.Texto_titulo{
-    font-weight: 600;
-    color:#ca3e47;
+.Texto_titulo {
+  font-weight: 600;
+  color: #ca3e47;
 }
-.Texto_Subtitulo{
-    color:whitesmoke
-}
-
-/*----mas vistas----*/
-
-.card{
-    width: 30rem;
-    height: 20rem;
-}
-.card-img{
-    height: 14rem;
-    object-fit: cover;
+.Texto_titulo__mes {
+  background-color: rgba(202, 62, 71, 0.3215686275);
+  color: whitesmoke;
 }
 
-.article__card{
-    overflow-y: hidden;
-    overflow-x: scroll;  
+.Texto_Subtitulo {
+  color: whitesmoke;
 }
 
+.noticias P {
+  color: whitesmoke;
+}
 
+.card {
+  width: 30rem;
+  height: 20rem;
+}
+.card-img {
+  height: 14rem;
+  object-fit: cover;
+}
+
+.article__card {
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
 .article__card::-webkit-scrollbar {
-    width: 14px;
+  width: 10px;
 }
-
 .article__card::-webkit-scrollbar-track {
-    background: #31313100;
+  background: rgba(49, 49, 49, 0);
 }
-
+.article__card::-webkit-scrollbar-track {
+  background: rgba(49, 49, 49, 0);
+}
 .article__card::-webkit-scrollbar-thumb {
-    background-color: #c32c2c;
-    border-radius: 10px;
-    border: 3px solid #31313100;
+  background-color: #c32c2c;
+  border-radius: 10px;
+  border: 3px solid rgba(49, 49, 49, 0);
 }
-/*---------NOVEDADES*--------*/
 
-.noticias P{
-    color:whitesmoke;
-}
+/*# sourceMappingURL=style.css.map */
