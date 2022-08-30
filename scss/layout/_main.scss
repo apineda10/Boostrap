@@ -1,5 +1,5 @@
 main{
-    background: $backgroundMain
+    background: map-get($colors,backgroundMain);
 }
 
 

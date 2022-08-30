@@ -1,18 +1,18 @@
 .Texto_titulo{
     font-weight: 600;
-    color:$colorTitulo;
+    color:map-get($colors,colorTitulo);
     &__mes{
-        background-color: $backgroundCarruselTexto;
-        color:$colorSubtitulo
+        background-color: map-get($colors,backgroundCarruselTexto);
+        color:map-get($colors,colorSubtitulo);
     }
 }
 
 .Texto_Subtitulo{
-    color:$colorSubtitulo
+    color:map-get($colors,colorSubtitulo);
 }
 
 .noticias{
     & P{
-    color:$colorTextoBloque;
+    color:map-get($colors,colorTextoBloque);
     }
 }

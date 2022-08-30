@@ -1,10 +1,10 @@
 .carousel{
-    background-color:$backgroundCarrusel;
+    background-color:map-get($colors,backgroundCarrusel);
     &-item {
-        background-color:$backgroundCarrusel;
+        background-color:map-get($colors,backgroundCarrusel);
     } 
     &-caption{
-        background-color: $backgroundCarruselTexto;
+        background-color: map-get($colors,backgroundCarruselTexto);
     }  
     &-caption{
         & h5{

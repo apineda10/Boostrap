@@ -3,6 +3,6 @@
 }
 .navbar__Titulo{
     a{
-        color:$colorTitulo
+        color:map-get($colors,colorTitulo);
     }
 }

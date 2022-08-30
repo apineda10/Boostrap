@@ -16,7 +16,7 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: #c32c2c;
   border-radius: 10px;
-  border: 3px solid rgba(49, 49, 49, 0);
+  border: 3px solid colorScrollSecundario;
 }
 
 main {
@@ -103,7 +103,7 @@ main {
 .article__card::-webkit-scrollbar-thumb {
   background-color: #c32c2c;
   border-radius: 10px;
-  border: 3px solid rgba(49, 49, 49, 0);
+  border: 3px solid colorScrollSecundario;
 }
 
 /*# sourceMappingURL=style.css.map */

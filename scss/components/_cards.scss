@@ -15,14 +15,14 @@
         width: 10px;
     }
     &::-webkit-scrollbar-track {
-        background: $colorScrollSecundario;
+        background: map-get($colors,colorScrollSecundario);
     }
     &::-webkit-scrollbar-track {
-        background: $colorScrollSecundario;
+        background: map-get($colors,colorScrollSecundario);
     }
     &::-webkit-scrollbar-thumb {
-        background-color:$colorScrollPrincipal;
+        background-color:map-get($colors,colorScrollPrincipal);
         border-radius: 10px;
-        border:$borderScroll;
+        border:map-get($colors,borderScroll);
     }
 }
