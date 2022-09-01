@@ -4,18 +4,6 @@
 
 body{
     scrollbar-width: auto;
-    scrollbar-color: map-get($colors,colorScrollPrincipal) map-get($colors,backgroundCarrusel);
     overflow-x: hidden;
-    &::-webkit-scrollbar {
-        width: 10px;
-    }
-    &::-webkit-scrollbar-track {
-        background:map-get($colors,backgroundCarrusel);
-    }
-    &::-webkit-scrollbar-thumb {
-        background-color: map-get($colors,colorScrollPrincipal);
-        border-radius: 10px;
-        border: map-get($colors,borderScroll);
-    }
-
+    @include scroll();
 }

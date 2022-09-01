@@ -1,9 +1,10 @@
+
 .Texto_titulo{
     font-weight: 600;
     color:map-get($colors,colorTitulo);
     &__mes{
         background-color: map-get($colors,backgroundCarruselTexto);
-        color:map-get($colors,colorSubtitulo);
+        @extend .Texto_Subtitulo;
     }
 }
 
@@ -15,4 +16,12 @@
     & P{
     color:map-get($colors,colorTextoBloque);
     }
+}
+
+.article--proxest{
+    @include flex-center();
+    padding:2;
+}
+.article--proxest__calendar{
+    @extend .article--proxest;
 }

@@ -4,7 +4,6 @@
 
 body {
   scrollbar-width: auto;
-  scrollbar-color: #c32c2c #313131;
   overflow-x: hidden;
 }
 body::-webkit-scrollbar {
@@ -16,7 +15,7 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: #c32c2c;
   border-radius: 10px;
-  border: 3px solid colorScrollSecundario;
+  border: 3px solid rgba(49, 49, 49, 0);
 }
 
 main {
@@ -67,15 +66,22 @@ main {
 }
 .Texto_titulo__mes {
   background-color: rgba(202, 62, 71, 0.3215686275);
-  color: whitesmoke;
 }
 
-.Texto_Subtitulo {
+.Texto_Subtitulo, .Texto_titulo__mes {
   color: whitesmoke;
 }
 
 .noticias P {
   color: whitesmoke;
+}
+
+.article--proxest, .article--proxest__calendar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2;
 }
 
 .card {
@@ -87,6 +93,14 @@ main {
   object-fit: cover;
 }
 
+.cardMv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2;
+}
+
 .article__card {
   overflow-y: hidden;
   overflow-x: scroll;
@@ -95,15 +109,12 @@ main {
   width: 10px;
 }
 .article__card::-webkit-scrollbar-track {
-  background: rgba(49, 49, 49, 0);
-}
-.article__card::-webkit-scrollbar-track {
-  background: rgba(49, 49, 49, 0);
+  background: #313131;
 }
 .article__card::-webkit-scrollbar-thumb {
   background-color: #c32c2c;
   border-radius: 10px;
-  border: 3px solid colorScrollSecundario;
+  border: 3px solid rgba(49, 49, 49, 0);
 }
 
 /*# sourceMappingURL=style.css.map */
