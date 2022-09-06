@@ -51,36 +51,29 @@
     <!--MAIN-->
     <main>
         <div>
-            <hr>
             <section>
                 <form>
-                    <fieldset>
-                        <legend>Formulario de contacto</legend>
-                        <div>
-                        
-                            <div>
-                                <label for="usu-nombre">Nombre:</label>
-                                <input type="text" id="usu-nombre" name="usu-nombre">
-                            </div>
-                            <div>
-                                <label for="usu-apellido">Apellido:</label>
-                                <input type="text" id="usu-apellido" name="usu-apellido">
-                            </div>                          
-                            <div>
-                                <label for="usu-email">Email:</label>
-                                <input type="email" id="usu-email" name="usu-email">
-                            </div>
-                            <hr>
-                            <div>
-                                <label for="usu-consulta">Motivo de contacto:</label>
-                                <textarea cols="30" rows="10" id="usu-consulta" name="usu-consulta"></textarea>
-                            </div>
-                            <div>
-                                <label for="usu-news">Desea recibir las ultimas novedades?</label>
-                                <input type="checkbox" id="usu-news" name="usu-news">
-                            </div>
-                        
-                        </div>
+                    <fieldset class="form-contacto">
+                        <div class="form-contacto__dato">
+                            <label for="usu-nombre">Nombre:</label>
+                            <input type="text" id="usu-nombre" name="usu-nombre">
+                        </div> 
+                        <div class="form-contacto__dato">          
+                            <label for="usu-apellido">Apellido:</label>
+                            <input type="text" id="usu-apellido" name="usu-apellido">
+                        </div> 
+                        <div class="form-contacto__dato">
+                            <label for="usu-email">Email:</label>
+                            <input type="email" id="usu-email" name="usu-email">
+                        </div>   
+                        <div class="form-contacto__dato">    
+                            <label for="usu-consulta">Motivo de contacto:</label>
+                            <textarea cols="30" rows="10" id="usu-consulta" name="usu-consulta"></textarea>
+                        </div>  
+                        <div class="form-contacto__dato">
+                            <label for="usu-news">Desea recibir las ultimas novedades?</label>
+                            <input type="checkbox" id="usu-news" name="usu-news">
+                        </div>            
                         <input type="submit" value="Enviar"></input>
                     </fieldset>
                 </form>

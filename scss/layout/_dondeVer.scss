@@ -1,0 +1,29 @@
+.contenedor-dondeVer {
+    height: 88vh;
+    @include flex-center();
+    text-align: center;
+}
+
+.dondeVer{
+    @include flex-center();
+    & h2{
+        color:map-get($colors,colorTitulo);    
+    }
+
+    & h3{
+        color:map-get($colors,colorTextoBloque);
+        font-weight: 100;
+    }
+    padding:10px;
+}
+
+fieldset{
+    & input{
+        width: 80vw;
+    }
+    & label{
+        color:map-get($colors,colorTextoBloque); 
+        font-size: 200;
+    }
+}
+

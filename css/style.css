@@ -22,6 +22,82 @@ main {
   background: linear-gradient(180deg, rgb(15, 14, 14) 52%, rgb(82, 73, 73) 97%, rgb(94, 89, 89) 100%);
 }
 
+.contenedor-trailers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10p;
+}
+
+.trailers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10p;
+}
+.trailers h3 {
+  color: #ca3e47;
+}
+.trailers p {
+  color: whitesmoke;
+}
+.trailers iframe {
+  width: 100%;
+  height: 35vh;
+}
+
+.contenedor-dondeVer {
+  height: 88vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.dondeVer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+.dondeVer h2 {
+  color: #ca3e47;
+}
+.dondeVer h3 {
+  color: whitesmoke;
+  font-weight: 100;
+}
+
+fieldset input {
+  width: 80vw;
+}
+fieldset label {
+  color: whitesmoke;
+  font-size: 200;
+}
+
+.form-contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.form-contacto input {
+  width: 50%;
+}
+
+.form-contacto__dato {
+  display: flex;
+  flex-direction: row;
+}
+.form-contacto__dato input {
+  width: 50%;
+}
+
 .navbar-brand {
   font-weight: 600;
 }
@@ -52,7 +128,7 @@ main {
   font-size: 20px;
 }
 .carousel-img {
-  height: 90vh;
+  height: 90%;
   object-fit: cover;
 }
 

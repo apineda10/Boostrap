@@ -1,0 +1,14 @@
+.form-contacto{
+    @include flex-center();
+    & input{
+        width: 50%;
+    }
+}
+.form-contacto__dato{
+    display: flex;
+    flex-direction: row;
+    & input{
+        width: 50%;
+    }
+
+}
