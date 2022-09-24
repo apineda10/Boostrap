@@ -26,6 +26,7 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: baseline;
   flex-wrap: wrap;
   padding: 10p;
 }
@@ -80,22 +81,54 @@ fieldset label {
   font-size: 200;
 }
 
+.main-contactos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
 .form-contacto {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
-.form-contacto input {
-  width: 50%;
+.form-contacto .btn-send {
+  width: 100px;
+  margin: 30px;
+  border-radius: 10px;
+  background-color: rgba(49, 49, 49, 0);
+  color: whitesmoke;
 }
 
-.form-contacto__dato {
+.form-contacto__dato, .form-contacto__dato-check {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.form-contacto__dato input, .form-contacto__dato-check input {
+  width: 200px;
+  margin: 4px;
+  border-radius: 10px;
+}
+.form-contacto__dato label, .form-contacto__dato-check label {
+  margin: 4px;
+}
+.form-contacto__dato textarea, .form-contacto__dato-check textarea {
+  width: 400px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.form-contacto__dato-check {
   display: flex;
   flex-direction: row;
-}
-.form-contacto__dato input {
-  width: 50%;
+  justify-content: space-around;
+  align-items: baseline;
+  flex-wrap: wrap;
 }
 
 .navbar-brand {
@@ -163,6 +196,7 @@ fieldset label {
 .card {
   width: 30rem;
   height: 20rem;
+  margin: 15px;
 }
 .card-img {
   height: 14rem;
@@ -178,19 +212,15 @@ fieldset label {
 }
 
 .article__card {
-  overflow-y: hidden;
+  /*overflow-y: hidden;
   overflow-x: scroll;
-}
-.article__card::-webkit-scrollbar {
-  width: 10px;
-}
-.article__card::-webkit-scrollbar-track {
-  background: #313131;
-}
-.article__card::-webkit-scrollbar-thumb {
-  background-color: #c32c2c;
-  border-radius: 10px;
-  border: 3px solid rgba(49, 49, 49, 0);
+  @include scroll()*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+  flex-wrap: wrap;
+  margin: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

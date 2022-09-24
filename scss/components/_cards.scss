@@ -1,6 +1,8 @@
+
 .card{
     width: 30rem;
     height: 20rem;
+    margin:15px;
     &-img{
         height: 14rem;
         object-fit: cover;
@@ -14,7 +16,9 @@
 
 
 .article__card{
-    overflow-y: hidden;
+    /*overflow-y: hidden;
     overflow-x: scroll;
-    @include scroll()
+    @include scroll()*/
+    @include flex-around-row();
+    margin:10px
 }

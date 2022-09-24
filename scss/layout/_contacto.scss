@@ -1,14 +1,37 @@
+.main-contactos{
+    @include flex-center();
+    height: 100vh
+}
+
 .form-contacto{
     @include flex-center();
-    & input{
-        width: 50%;
+    & .btn-send{
+        width: 100px;
+        margin: 30px;
+        border-radius: 10px;
+        background-color: map-get($colors,colorScrollSecundario);
+        color:map-get($colors,colorTextoBloque);
     }
 }
 .form-contacto__dato{
-    display: flex;
-    flex-direction: row;
+    @include flex-center();
     & input{
-        width: 50%;
+        width: 200px;
+        margin: 4px;
+        border-radius: 10px
     }
+    & label{
+        margin: 4px;
+    }
+    & textarea{
+        width: 400px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+}
+
+.form-contacto__dato-check{
+    @extend .form-contacto__dato;
+    @include flex-around-row();
 
 }
